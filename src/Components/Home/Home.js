@@ -59,6 +59,17 @@ const Home = () => {
                             <p>Years</p>
                         </div>
                     </div>
+                    <div>
+                        <h2>Add A Break</h2>
+
+                        <div className='btn-div'>
+                            <button onClick={() => setTime(5)}>5 Min</button>
+                            <button onClick={() => setTime(10)}>10 Min</button>
+                            <button onClick={() => setTime(15)}>15 Min</button>
+                            <button onClick={() => setTime(20)}>20 Min</button>
+                            <button onClick={() => setTime(30)}>30 Min</button>
+                        </div>
+                    </div>
 
                 </div>
             </div>
