@@ -40,7 +40,10 @@ const Home = () => {
                 <div className='right'>
                     <div className='personal-info'>
                         <img src="https://i.ibb.co/80JMmDW/IMG-white.png" alt="" />
-
+                        <div className='name'>
+                            <h3>Md. Chanchal Hossain</h3>
+                            <p>Kushtia,Bangladesh</p>
+                        </div>
                     </div>
 
                 </div>
