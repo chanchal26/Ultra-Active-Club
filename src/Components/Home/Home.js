@@ -70,6 +70,17 @@ const Home = () => {
                             <button onClick={() => setTime(30)}>30 Min</button>
                         </div>
                     </div>
+                    <h2>Exercise Details</h2>
+                    <div className='input-field'>
+                        <div>
+                            <h4>Exercise time</h4>
+                            <p>{time0} Minute</p>
+                        </div>
+                        <div>
+                            <h4>Break time</h4>
+                            <p>{time} Minute</p>
+                        </div>
+                    </div>
 
                 </div>
             </div>
