@@ -2,3 +2,102 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
+
+.left-side {
+    background: gainsboro;
+}
+
+.card-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .card-section {
+        display: block;
+
+    }
+}
+
+.left-side h1 {
+    color: rgb(12, 116, 234);
+}
+
+.personal-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.personal-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    padding: 30px 10px;
+}
+
+.btn-div {
+    background: gainsboro;
+    margin: 0px 40px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.btn-div button {
+    margin: 8px;
+    padding: 6px 12px;
+    border: navajowhite;
+    background: rgb(12, 116, 234);
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-div button:hover {
+    background: blue;
+}
+
+.weight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gainsboro;
+    gap: 40px;
+    margin: 0px 40px;
+    border-radius: 10px;
+}
+
+
+.button {
+    margin-top: 50px;
+    padding: 15px 45px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(12, 116, 234);
+    color: white;
+    margin-bottom: 30px;
+}
+
+.button:hover {
+    background: blue;
+}
+
+
+
+.right {
+    position: sticky;
+    top: 0;
+}
+
+.input-field div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: gainsboro;
+    margin: 20px;
+    border-radius: 15px;
+}
