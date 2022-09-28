@@ -3,96 +3,96 @@
         "index": 0,
         "name": "Treadmill",
         "img": "https://images.unsplash.com/photo-1637712901929-a30440e1bb28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
-        "details": "PYRAMI",
-        "age": "jaynefinch@pyrami.com",
-        "time": "<ReferenceError: time is not defined>"
+        "details": "A treadmill is a device generally used for walking, running, or climbing while staying in the same place.",
+        "age": "25-30",
+        "time": "10"
     },
     {
         "index": 1,
-        "name": "Stephenson Lester",
-        "img": "male",
-        "details": "COMVEYER",
-        "age": "stephensonlester@comveyer.com",
-        "time": "<ReferenceError: time is not defined>"
+        "name": "Stationary bicycle",
+        "img": "https://images.unsplash.com/photo-1591741535018-d042766c62eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "details": "A stationary bicycle is a device used as exercise equipment for indoor cycling.",
+        "age": "20-25",
+        "time": "5"
     },
     {
         "index": 2,
-        "name": "Graciela Mcclain",
-        "img": "female",
-        "details": "STUCCO",
-        "age": "gracielamcclain@stucco.com",
-        "time": "<ReferenceError: time is not defined>"
+        "name": "Dumbbell",
+        "img": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "details": "The dumbbell, a type of free weight, is a piece of equipment used in weight training.",
+        "age": "25-30",
+        "time": "15"
     },
     {
         "index": 3,
-        "name": "David Dickerson",
-        "img": "male",
-        "details": "XOGGLE",
-        "age": "daviddickerson@xoggle.com",
-        "time": "<ReferenceError: time is not defined>"
+        "name": "Dumbbell",
+        "img": "https://images.unsplash.com/photo-1570440828762-ab7a993dbde8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=389&q=80",
+        "details": "In weight training, a kettlebell is a cast-iron or cast-steel ball with a handle attached to the top.",
+        "age": "20-25",
+        "time": "10"
     },
     {
         "index": 4,
-        "name": "Kelley Reynolds",
-        "img": "male",
-        "details": "ZENTRY",
-        "age": "kelleyreynolds@zentry.com",
-        "time": "<ReferenceError: time is not defined>"
+        "name": "Barbell",
+        "img": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "details": "A barbell is a piece of exercise equipment used in weight training, bodybuilding, weightlifting.",
+        "age": "25-30",
+        "time": "5"
     },
     {
         "index": 5,
-        "name": "Cunningham Kaufman",
-        "img": "male",
-        "details": "KOOGLE",
-        "age": "cunninghamkaufman@koogle.com",
-        "time": "<ReferenceError: time is not defined>"
+        "name": "Power rack",
+        "img": "mhttps://images.unsplash.com/photo-1646656130630-07af3a262a9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80ale",
+        "details": "A power rack is a more advanced version of a squat or barbell rack.",
+        "age": "25-30",
+        "time": "20"
     },
     {
         "index": 6,
-        "name": "Leanne Conner",
-        "img": "female",
-        "details": "CENTREE",
-        "age": "leanneconner@centree.com",
-        "time": "<ReferenceError: time is not defined>"
+        "name": "Resistance band",
+        "img": "https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "details": "A resistance band is an elastic band used for strength training.",
+        "age": "20-25",
+        "time": "5"
     },
     {
         "index": 7,
-        "name": "Letha Velez",
-        "img": "female",
-        "details": "PLASMOS",
-        "age": "lethavelez@plasmos.com",
-        "time": "<ReferenceError: time is not defined>"
+        "name": "Stability ball",
+        "img": "https://images.unsplash.com/photo-1593308610775-48f0102f1722?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+        "details": "An exercise ball is a ball constructed of soft elastic, typically in 5 diameters of 10-centimeter",
+        "age": "20-25",
+        "time": "10"
     },
     {
         "index": 8,
-        "name": "Atkins Ellis",
-        "img": "male",
-        "details": "COSMETEX",
-        "age": "atkinsellis@cosmetex.com",
-        "time": "<ReferenceError: time is not defined>"
+        "name": "Foam roller",
+        "img": "https://images.unsplash.com/photo-1591741535585-9c4f52b3f13f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "details": "A foam roller is a lightweight, cylindrical tube of compressed foam.",
+        "age": "25-30",
+        "time": "15"
     },
     {
         "index": 9,
-        "name": "Eva Herman",
-        "img": "female",
-        "details": "KATAKANA",
-        "age": "evaherman@katakana.com",
-        "time": "<ReferenceError: time is not defined>"
+        "name": "Pull-up Bar",
+        "img": "https://images.unsplash.com/photo-1663614536871-3845f6890aff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "details": "A pull-up bar may also be known as a chin-up bar.",
+        "age": "25-30",
+        "time": "5"
     },
     {
         "index": 10,
-        "name": "Davis Bullock",
-        "img": "male",
-        "details": "ISODRIVE",
-        "age": "davisbullock@isodrive.com",
-        "time": "<ReferenceError: time is not defined>"
+        "name": "Punching bag",
+        "img": "https://images.unsplash.com/photo-1616652836576-c4115253b2d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "details": "A punching bag is a sturdy bag designed to be repeatedly punched.",
+        "age": "20-25",
+        "time": "10"
     },
     {
         "index": 11,
-        "name": "Hutchinson Wall",
-        "img": "male",
-        "details": "REALYSIS",
-        "age": "hutchinsonwall@realysis.com",
-        "time": "<ReferenceError: time is not defined>"
+        "name": "Weight plate",
+        "img": "https://images.unsplash.com/photo-1584827386894-fc939dad6078?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "details": "A weight plate is a flat, heavy object, usually made of cast iron, that is used in combination.",
+        "age": "20-25",
+        "time": "15"
     }
 ]
