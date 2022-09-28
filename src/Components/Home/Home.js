@@ -81,7 +81,8 @@ const Home = () => {
                             <p>{time} Minute</p>
                         </div>
                     </div>
-
+                    <button onClick={notify} className='button'>Activity Completed</button>
+                    <ToastContainer />
                 </div>
             </div>
         </div>
