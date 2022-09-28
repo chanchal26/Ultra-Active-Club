@@ -45,6 +45,20 @@ const Home = () => {
                             <p>Kushtia,Bangladesh</p>
                         </div>
                     </div>
+                    <div className='weight'>
+                        <div>
+                            <h3>75Kg</h3>
+                            <p>Weight</p>
+                        </div>
+                        <div>
+                            <h3>5.8</h3>
+                            <p>Height</p>
+                        </div>
+                        <div>
+                            <h3>25</h3>
+                            <p>Years</p>
+                        </div>
+                    </div>
 
                 </div>
             </div>
