@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './Card.css'
 
 const Card = ({ card, setTime0, time0 }) => {
