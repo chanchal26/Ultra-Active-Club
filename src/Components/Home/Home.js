@@ -36,7 +36,15 @@ const Home = () => {
 
                 </div>
             </div>
+            <div className='right-side'>
+                <div className='right'>
+                    <div className='personal-info'>
+                        <img src="https://i.ibb.co/80JMmDW/IMG-white.png" alt="" />
 
+                    </div>
+
+                </div>
+            </div>
         </div>
     );
 };
