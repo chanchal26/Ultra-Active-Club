@@ -8,7 +8,7 @@ import { faDumbbell, faLocation } from '@fortawesome/free-solid-svg-icons'
 
 const Home = () => {
 
-    let [time, setTime] = useState(0);
+    const [time, setTime] = useState(0);
 
     const [cards, setCards] = useState([]);
 
@@ -24,6 +24,19 @@ const Home = () => {
 
 
 
+    const [exerciseTime, setExerciseTime] = useState(0);
+
+    const addExerciseTime = (time) => {
+        setExerciseTime(time);
+
+        localStorage.setItem('breakTime', exerciseTime);
+
+
+    };
+    useEffect(() => {
+        const oldTime = localStorage.getItem('breakTime') ? localStorage.getItem('breakTime') : 0;
+        setExerciseTime(oldTime)
+    }, []);
 
 
 
@@ -70,11 +83,11 @@ const Home = () => {
                         <h2>Add A Break</h2>
 
                         <div className='btn-div'>
-                            <button onClick={() => setTime(5)}>5 Min</button>
-                            <button onClick={() => setTime(10)}>10 Min</button>
-                            <button onClick={() => setTime(15)}>15 Min</button>
-                            <button onClick={() => setTime(20)}>20 Min</button>
-                            <button onClick={() => setTime(30)}>30 Min</button>
+                            <button onClick={() => addExerciseTime(5)}>5 Min</button>
+                            <button onClick={() => addExerciseTime(10)}>10 Min</button>
+                            <button onClick={() => addExerciseTime(15)}>15 Min</button>
+                            <button onClick={() => addExerciseTime(20)}>20 Min</button>
+                            <button onClick={() => addExerciseTime(30)}>30 Min</button>
                         </div>
                     </div>
                     <h2>Exercise Details</h2>
@@ -85,7 +98,7 @@ const Home = () => {
                         </div>
                         <div>
                             <h4>Break time</h4>
-                            <p>{time} Minute</p>
+                            <p>{exerciseTime} Minute</p>
                         </div>
                     </div>
                     <button onClick={notify} className='button'>Activity Completed</button>
