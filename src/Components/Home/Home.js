@@ -3,10 +3,12 @@ import Card from '../Card/Card';
 import './Home.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDumbbell, faLocation } from '@fortawesome/free-solid-svg-icons'
 
 const Home = () => {
 
-    const [time, setTime] = useState(0);
+    let [time, setTime] = useState(0);
 
     const [cards, setCards] = useState([]);
 
@@ -20,13 +22,18 @@ const Home = () => {
             .then(data => setCards(data))
     }, []);
 
+
+
+
+
+
     const notify = () => toast("Congratulation ! Your task has been completed.");
 
     return (
         <div className='home'>
 
             <div className='left-side'>
-                <h1>Fitness Club</h1>
+                <h1><FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon> Fitness Club</h1>
                 <h3>Select today’s exercise</h3>
                 <div className='card-section'>
 
@@ -42,7 +49,7 @@ const Home = () => {
                         <img src="https://i.ibb.co/80JMmDW/IMG-white.png" alt="" />
                         <div className='name'>
                             <h3>Md. Chanchal Hossain</h3>
-                            <p>Kushtia,Bangladesh</p>
+                            <p><FontAwesomeIcon icon={faLocation}></FontAwesomeIcon> Kushtia,Bangladesh</p>
                         </div>
                     </div>
                     <div className='weight'>
